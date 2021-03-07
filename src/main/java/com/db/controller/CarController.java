@@ -21,6 +21,7 @@ public class CarController {
         ResultMpdel mpdel = new ResultMpdel();
         List<Car> list = carService.fianAll();
         mpdel.setData(list);
+        System.sout.println(123456);
         return mpdel;
     }
 
