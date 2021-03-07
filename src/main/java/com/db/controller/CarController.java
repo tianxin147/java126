@@ -20,8 +20,7 @@ public class CarController {
     public ResultMpdel fianAll(){
         ResultMpdel mpdel = new ResultMpdel();
         List<Car> list = carService.fianAll();
-        mpdel.setData(list):
-        //123564842113213165465
+        mpdel.setData(list);
         return mpdel;
     }
 
