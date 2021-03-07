@@ -1,0 +1,15 @@
+server:
+  port: 80
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/d2?useSSL=true&characterEncoding=utf8&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    #正向工程
+    #显示sql
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
